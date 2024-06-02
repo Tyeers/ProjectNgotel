@@ -15,13 +15,13 @@
   <title>NGOTEL</title>
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="{{ asset('spering-html/css/bootstrap.css') }}" />
+  <link rel="stylesheet" type="text/css" href="spering-html/css/bootstrap.css" />
 
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
   <!-- Custom styles for this template -->
-  <link href="{{ asset('spering-html/css/style.css') }}" rel="stylesheet" />
+  <link href="spering-html/css/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="{{ asset('spering-html/css/responsive.css') }}" rel="stylesheet" />
+  <link href="spering-html/css/responsive.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -123,7 +123,7 @@
                 </div>
                 <div class="offset-md-1">
                   <div class="img-box">
-                    <img src="/spering-html/images/twinTower.jpg" alt="" width="617" height="764">
+                    <img src="spering-html/images/twinTower.jpg" alt="" width="617" height="764">
                   </div>
                 </div>
               </div>
@@ -146,12 +146,12 @@
   <!-- end  footer section -->
 
 
-  <script src="{{ asset ('spering-html/js/jquery-3.4.1.min.js') }}"></script>
-  <script src="{{ asset ('spering-html/js/bootstrap.js') }}"></script>
-  <script src="{{ asset ('spering-html/js/custom.js') }}"></script>
-
+  <script src="spering-html/js/jquery-3.4.1.min.js"></script>
+  <script src="spering-html/js/bootstrap.js"></script>
+  <script src="spering-html/js/custom.js"></script>
+  <script>
+    document.getElementById("displayDate").textContent = new Date().getFullYear();
+  </script>
 
 </body>
-</body>
-
 </html>
